@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Contact | Laurie-Anne Romagne</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lte IE 9]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p><![endif]-->
+        <header>
+            <h1>
+                <a href="index.html">
+                    <img src="./img/general/logo_copie.png" class="header__logo" alt="Laurie-anne Romagne">
+                </a>
+            </h1>
+            <nav class="nav">
+                <h1 class="hidden">Navigation principale</h1>
+                <ul>
+                    <li class="nav__accueil">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav__professionnels">
+                        <a href="professionnel.html">Professionnels</a>
+                    </li>
+                    <li class="nav__particuliers">
+                        <a href="particulier.html">Particuliers</a>
+                    </li>
+                    <li class="nav__artistiques">
+                        <a href="artistique.html">Artistiques</a>
+                    </li>
+                    <li class="nav__apropos">
+                        <a href="apropos.html">A propos</a>
+                    </li>
+                    <li class="nav__contact">
+                        <a href="contact.html">Me contacter</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__infos">
+                <p class="header__name">Laurie-Anne Romagne</p>
+                <p class="header__job">Photographe</p>
+                <a href="contact.html" class="header__contact">Me contacter</a>
+            </div>
+        </header>
+        <section class="contact">
+            <div>
+                <h1 class="contact__first">
+                    Me contacter
+                </h1>
+                <h2>
+                    Mes coordonnées
+                </h2>
+                <div>
+                    <div class="contact__coordonnees">
+                        <div class="mail">
+                            <a href="mailto:info@laurianne-romagne.com" class="mail--a" >
+                                info@laurianne-romagne.com
+                            </a>
+                        </div>
+                        <div class="facebook">
+                            <a href="www.facebook.com/laurieanneromagnephotographie/" class="facebook--a">
+                                Laurie Anne Romagne photographie
+                            </a>
+                        </div>
+                        <div class="instagram--logo">
+                            <a href="www.instagram.com/laurieanneromagnephotographie/" class="instagram--a">
+                                @LaurieAnneRomagnephotographie
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__form">
+                <form action="#" method="POST">
+                    <div class="contact__coordonnees--flex">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="contact__coordonnees--flex">
+                        <label for="mail">Email</label>
+                        <input type="text" id="mail" name="mail">
+                    </div>
+                    <div class="contact__coordonnees--flex">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </section>
+        <section class="encart_projet">
+            <h1>
+                Envie de voir mes projets&nbsp?
+            </h1>
+            <ul>
+                <li class="encart__pro">
+                    <a href="professionnel.html" class="pro__pro">
+                        <img src="./img/Professionnels/Loft capucine/09 copie.jpg" alt="photo projet professionnel" class="pro__pro__img" width="4256" height="2832">
+                        <span class="pro__hidden">Projets professionnels </span>
+                    </a>
+                </li>
+                <li class="encart__pro">
+                    <a href="particulier.html" class="pro__pro">
+                        <img src="./img/Particuliers/Mariage/V&H 232 copie.jpg" alt="photo projet particulier" class="pro__pro__img" width="1021" height="680">
+                        <span class="pro__hidden">Projets particuliers</span>
+                    </a>
+                </li>
+                <li class="encart__pro">
+                    <a href="artistique.html" class="pro__pro">
+                        <img src="./img/Artistique/Errance/Errance - 12.jpg" alt="photo projet artistique" class="pro__pro__img">
+                        <span class="pro__hidden">Projets artistiques</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="encart_acheter_photo">
+            <h1>
+                Interessé par mes photos&nbsp;?
+            </h1>
+            <a href="#">Acheter mes photos</a>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,951 @@
+body {
+  font-size: 62.5%;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif; }
+
+.hidden {
+  position: absolute;
+  font-size: 0;
+  overflow: hidden; }
+
+/*///////////////////////////////////////////////PAGE ACCUEIL/////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////HEADER///////////////////////////////////////////////////////////////////*/
+header {
+  background: url("../img/general/banner_bis.jpg") center no-repeat;
+  max-width: 100%;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  padding: 23em;
+  position: relative; }
+
+.header__logo {
+  width: 10%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 780px;
+  margin-top: 5em; }
+
+.nav li {
+  display: inline-block;
+  margin: 0.3em 2%; }
+
+.nav .active {
+  color: #c19f5d;
+  border-bottom: 2px solid #c19f5d;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 1.8em; }
+
+.nav a {
+  text-decoration: none;
+  font-size: 1.6em;
+  color: white;
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px black; }
+
+.nav__contact {
+  width: 130px; }
+
+.nav__contact a {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  letter-spacing: unset;
+  font-size: 1.3em;
+  padding: 0.6em 10%;
+  border: none;
+  background-color: #c19f5d;
+  text-shadow: initial; }
+
+.nav__contact a:hover {
+  background-color: #8c7443; }
+
+.header__infos {
+  text-align: center;
+  margin-top: 3em; }
+
+.header__name {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 6em;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0.7em;
+  letter-spacing: 0.08em;
+  text-shadow: 1.5px 1px black; }
+
+.header__job {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  width: 300px;
+  margin: 0 auto 4em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-shadow: 1.5px 1.5px black; }
+
+.header__contact {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 300; }
+
+.header__contact:hover, .header__contact:focus {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+/*//////////////////////////////////////////END_HEADER///////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////ENCART_APROPOS///////////////////////////////////////////////////////////*/
+.eap__laurie img {
+  width: 35%;
+  margin-right: 5%;
+  border: 0.5px solid #c19f5d;
+  padding: 8px; }
+
+.eap__laurie {
+  border-bottom: 1px solid #c19f5d; }
+
+.eap__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 15em 12.8028125%; }
+
+.eap__content p {
+  font-size: 2em;
+  line-height: 1.6;
+  color: dimgrey;
+  padding: 4em 0% 2em 0%;
+  position: relative;
+  font-weight: 300;
+  margin-bottom: 1.3em; }
+
+.anim__bloq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+blockquote {
+  font-size: 2em; }
+
+blockquote q {
+  font-weight: 100;
+  line-height: 1.6;
+  color: dimgrey;
+  display: block; }
+
+blockquote q span {
+  will-change: opacity, filter;
+  opacity: 0;
+  -webkit-filter: blur(0px);
+  filter: blur(0px); }
+
+.eap__content q:before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/general/left-quote (1).svg");
+  opacity: 0.5;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: absolute;
+  top: -20px;
+  left: -60px; }
+
+.eap__content q:after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/general/left-quote (1).svg");
+  opacity: 0.5;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: absolute;
+  bottom: -20px;
+  right: -30px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.eap__content div {
+  text-align: center;
+  width: 30%;
+  margin-right: 5%;
+  position: relative;
+  top: -30px; }
+
+.eap__laurie a {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding: 0.6em 2%;
+  letter-spacing: 0.04em;
+  position: relative;
+  bottom: 220px;
+  left: 890px; }
+
+.eap__laurie a:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+/*//////////////////////////////////////////END_ENCART_APROPOS///////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////ENCART_PROJECTS///////////////////////////////////////////////////////////*/
+.encart_projet {
+  text-align: center;
+  margin: 11em 12.8028125%;
+  padding: 0em 4%; }
+
+h1 {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive; }
+
+.encart_projet ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10em 0%; }
+
+.encart_projet li {
+  width: 300px; }
+
+.pro__pro__img:hover ~ span, .pro__pro__img.active ~ span {
+  visibility: visible; }
+
+.pro__pro__img:hover, .pro__pro__img.active {
+  background-color: white;
+  opacity: 0.1; }
+
+.pro__pro, .pro__par, .pro__art {
+  text-decoration: none; }
+
+.pro__hidden {
+  visibility: hidden;
+  position: relative;
+  top: -130px;
+  color: #c19f5d;
+  font-size: 2.3em;
+  font-weight: 500; }
+
+.pro__pro__img {
+  width: 300px;
+  height: 220px; }
+
+/*//////////////////////////////////////////END_ENCART_PROJECTS///////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////ENCART_EXPOSITION///////////////////////////////////////////////////////////*/
+.expositions {
+  background: rgba(193, 159, 93, 0.2) url("../img/general/triangle.png") no-repeat -150px 0;
+  background-size: 60%; }
+
+.expo {
+  margin: 15em 12.8028125%;
+  padding: 10em 4%; }
+
+.expo__first {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  width: 350px;
+  margin-bottom: 1.5em; }
+
+.expo__dates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: initial; }
+
+.expo ul {
+  margin-left: 3em; }
+
+.expo li {
+  font-size: 2em;
+  color: dimgrey;
+  margin-bottom: 1.3em; }
+
+.expo li:last-child {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 2em; }
+
+.expo li a {
+  color: cornflowerblue; }
+
+.expo__second {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  width: 450px; }
+
+/*//////////////////////////////////////////END_ENCART_EXPOSITION///////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////INSTAGRAM///////////////////////////////////////////////////////////////////*/
+.instagram {
+  border-bottom: 0.5px solid #c19f5d; }
+
+.insta__content {
+  margin: 0em 12.8028125%;
+  padding: 3em 4%; }
+
+.insta__first {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  width: 180px;
+  margin-bottom: 2em;
+  text-align: right;
+  margin-left: auto; }
+
+.insta__link {
+  display: block;
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-left: auto;
+  width: 220px;
+  font-size: 1.5em;
+  letter-spacing: 0.04em; }
+
+.insta__link:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+.instagram ul {
+  margin-top: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 8em; }
+
+.instagram li {
+  margin-bottom: 3em; }
+
+/*///////////////////////////////////////////END_INSTAGRAM///////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////ENCART_ACHAT///////////////////////////////////////////////////////////////////*/
+.encart_acheter_photo {
+  text-align: center;
+  margin: 15em 12.8028125%; }
+
+.encart_acheter_photo h1 {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  padding-bottom: 3em; }
+
+.encart_acheter_photo a {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.5em;
+  padding: 0.6em 4%; }
+
+.encart_acheter_photo a:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+/*//////////////////////////////////////////END_ENCART_ACHAT///////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////////*/
+footer {
+  background-color: rgba(193, 159, 93, 0.2); }
+
+.footer__content {
+  margin: 0em 25%;
+  padding: 5em 4% 0em;
+  text-align: center; }
+
+.footer__contact {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.2em;
+  padding: 0.6em 3%; }
+
+.footer__contact:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+.footer__facebook_photo, .footer__insta__photo {
+  width: 35px;
+  height: 35px; }
+
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 11%;
+  margin-bottom: 4em; }
+
+.footer__content p {
+  margin-left: 4%; }
+
+/*/////////////////////////////////////////////OTHER_PAGE///////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////PAGE PRO///////////////////////////////////////////////////////////////*/
+.pro__up p {
+  line-height: 2; }
+
+.pro__text, .pro__first {
+  margin: 0em 20%; }
+
+.choice_cat_pro {
+  border-bottom: 1px solid #c19f5d;
+  padding-bottom: 5em; }
+
+.pro__cat {
+  border-bottom: 1px solid #c19f5d; }
+
+.pro__first {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  width: 380px;
+  margin-bottom: 2em;
+  margin-top: 5em; }
+
+.pro__text {
+  margin-bottom: 5em; }
+
+#cat {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 3em;
+  text-align: center; }
+
+.pro p {
+  font-size: 1.5em;
+  color: dimgrey; }
+
+.pro ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.pro__projet {
+  margin: 0em 15%; }
+
+/*/////////////////////////////////////////////ENCART_PROJET///////////////////////////////////////////////////////////////*/
+.projet__first {
+  width: 600px;
+  margin: 0 auto; }
+
+/*/////////////////////////////////////////////END_PAGE PRO///////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////PAGE_PRO_CAT//////////////////////////////////////////////////////////////*/
+.procat__first {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  width: 380px;
+  margin-bottom: 3em;
+  margin-left: 20%;
+  margin-top: 8em; }
+
+/*//////////////////////////////////////END_PAGE_PRO_CAT//////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////ENTREPRISE / REPORTAGE / CULTURE///////////////////////////////////////////*/
+.pro .return {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid #c19f5d;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.6em 2% 0.6em 4%;
+  display: inline-block;
+  margin-top: 5em;
+  position: relative; }
+
+.pro .return:before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/general/right-arrow-white.svg);
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.pro .return:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-box-shadow: inset 0em 6em 0em 0 #8c7443;
+  box-shadow: inset 0em 6em 0em 0 #8c7443; }
+
+.entreprise {
+  padding-bottom: initial; }
+
+.pro__pro__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0em 12.8028125%;
+  padding: 0em 4%; }
+
+.pro__pro__list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.pro__pro__list li:nth-child(odd) {
+  background-color: rgba(193, 159, 93, 0.2); }
+
+.pro__pro__list li {
+  padding: 4em 4%;
+  margin-bottom: 4em; }
+
+.pro__pro__list img {
+  width: 300px;
+  height: auto; }
+
+.pro__pro__list--infrabel, .pro__pro__list--campagne, .pro__pro__list--ipsum, .pro__pro__list--jardin, .pro__pro__list--lorem {
+  text-align: right; }
+
+.pro__pro__list span {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  font-family: "Open Sans";
+  border: 1px solid #c19f5d;
+  padding: 0.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center; }
+
+.pro__pro__list a {
+  text-decoration: none; }
+
+.choice_cat_pro--entreprise, .infrabel {
+  margin: 0em 12.8028125%;
+  padding: 0em 4%; }
+
+.entreprise__first {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  width: 880px;
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  margin: 3em auto 3em; }
+
+.infrabel--header--img {
+  width: 960px;
+  height: auto;
+  margin-bottom: 8em;
+  display: block; }
+
+.infrabel p {
+  font-size: 1.8em;
+  margin-bottom: 3em; }
+
+.infrabel--content--img {
+  width: 960px;
+  margin-bottom: 130em; }
+
+.infrabel--content--img img {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-bottom: 2em;
+  margin-left: 2em; }
+
+footer {
+  clear: left; }
+
+.encart_projet.art {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: initial;
+  margin: 5em 12.8028125%; }
+
+.encart_projet.pro {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: initial;
+  margin: 5em 12.8028125%; }
+
+.encart_projet.par {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: initial;
+  margin: 5em 12.8028125%; }
+
+.a_propos {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.apropos h1 {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  margin: 3em auto 3em;
+  width: 350px;
+  text-align: center; }
+
+.apropos {
+  margin: 0em 12.8028125%;
+  padding: 0em 4%; }
+
+.apropos img {
+  display: block;
+  margin: 0 auto; }
+
+.apropos--left {
+  font-size: 1.8em;
+  color: dimgrey;
+  line-height: 2;
+  margin-top: 4em;
+  font-weight: 100;
+  border-bottom: 1px solid #c19f5d;
+  padding-bottom: 2em;
+  margin-bottom: 4em; }
+
+.first__para, .second__para, .third__para {
+  padding-bottom: 1em; }
+
+.apropos--right {
+  font-size: 1.8em;
+  color: dimgrey;
+  line-height: 2;
+  font-weight: 100;
+  text-align: right;
+  margin-bottom: 2em; }
+
+.apropos--right span {
+  text-transform: uppercase;
+  color: #c19f5d;
+  font-weight: 700; }
+
+.apropos--right--button {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.5em;
+  display: block;
+  margin-left: auto;
+  width: 119px; }
+
+.apropos--right--button:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+.encart_exposition {
+  background-color: rgba(193, 159, 93, 0.2);
+  padding-bottom: 10em; }
+
+.encart_exposition--adjust {
+  margin: 0em 12.8028125%;
+  padding: 0em 4%; }
+
+.expomade__first {
+  border-bottom: 1px solid dimgrey;
+  padding-bottom: 0.5em;
+  width: 450px;
+  margin-bottom: 2em;
+  margin-top: 5em;
+  padding-top: 3em; }
+
+.encart_exposition--img {
+  width: 980px;
+  height: auto; }
+
+.contact__first {
+  border-bottom: 1px solid dimgrey;
+  margin-bottom: 1.8em; }
+
+.contact h2 {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2em; }
+
+.contact__coordonnees a {
+  text-decoration: none;
+  color: dimgrey;
+  font-size: 1.5em;
+  font-weight: 100; }
+
+.contact__coordonnees div {
+  margin-bottom: 3em; }
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 15em 12.8028125%;
+  padding: 0em 10%; }
+
+.contact__form {
+  margin-top: 5em; }
+
+.contact__coordonnees--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 3em; }
+
+.contact__form label {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 100;
+  color: dimgrey; }
+
+.contact__form input {
+  height: 40px;
+  border: 1px solid #c19f5d; }
+
+.contact__form input[type=submit] {
+  text-decoration: none;
+  padding: 0.6em 3%;
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: #c19f5d;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 100;
+  font-size: 1.5em;
+  width: 250px; }
+
+.contact__form textarea {
+  border: 1px solid #c19f5d; }
+
+.contact__form input[type=submit]:hover {
+  -webkit-box-shadow: inset 0em 5em 0em 0 #8c7443;
+  box-shadow: inset 0em 5em 0em 0 #8c7443;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+.mail:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/general/contact.svg");
+  background-size: 100%;
+  position: absolute; }
+
+.mail--a {
+  margin-left: 2.5em; }
+
+.facebook:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/general/facebook-app-symbol.svg");
+  background-size: 100%;
+  position: absolute; }
+
+.facebook--a {
+  margin-left: 2.5em; }
+
+.instagram--logo {
+  border: none; }
+
+.instagram--logo:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/general/instagram.svg");
+  background-size: 100%;
+  position: absolute; }
+
+.instagram--a {
+  margin-left: 2.5em; }
+
+.reverzhi h1 {
+  letter-spacing: 0.1em;
+  color: dimgrey;
+  font-size: 3em;
+  font-family: "Nothing You Could Do", cursive;
+  text-align: center;
+  margin-top: 4em;
+  font-size: 4em; }
+
+.reverzhi p {
+  margin: 3em 12.80281%;
+  font-size: 1.6em;
+  line-height: 1.8;
+  color: dimgrey;
+  font-weight: 100; }
+
+.reverzhi blockquote {
+  margin: 6em auto 0.8em;
+  font-size: 1.8em;
+  line-height: 1.8;
+  color: dimgrey;
+  font-weight: 100;
+  text-align: center;
+  width: 500px;
+  display: block;
+  position: relative; }
+
+.reverzhi .author {
+  margin: 0em auto 1em;
+  display: block;
+  width: 150px;
+  font-weight: 800;
+  color: black;
+  font-size: 1.8em; }
+
+.reverzhi blockquote:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/general/left-quote (1).svg");
+  opacity: 0.5;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: absolute;
+  top: -20px;
+  left: -40px; }
+
+.reverzhi blockquote:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/general/left-quote (1).svg");
+  opacity: 0.5;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: absolute;
+  bottom: -20px;
+  right: -30px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.reverzhimg {
+  margin: 10em 12.80281% 10em; }
+
+.reverzhi--footer {
+  clear: left; }
